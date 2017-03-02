@@ -1,3 +1,12 @@
+:root {
+  --base: #a33;
+  --spacing: 10px;
+  --blur: 10px;
+};
+html {
+  background-color: #000;
+}
+
 body {
   text-align: center;
   background: #000;
@@ -18,9 +27,27 @@ label {
 
 input {
   width:100px;
+  margin-right: 10px;
 }
 
 img {
   height: 300px;
   margin: 40px;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
+
+.hl {
+  color: var(--base);
+}
+
+
+
+
+
+
+
+
+
+
