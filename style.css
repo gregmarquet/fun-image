@@ -1,7 +1,7 @@
 :root {
   --base: #6BFA74;
-  --spacing: 10px;
-  --blur: 10px;
+  --spacing: 40px;
+  --blur: 0px;
 };
 html {
   background-color: #000;
